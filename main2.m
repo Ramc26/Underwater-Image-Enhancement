@@ -21,7 +21,7 @@ img = wbalance(img);
 
 figure,imshow(img),title('White Balance')
 
-%%% gamma correction
+%gamma correction
 
 [lab1 img1] = gamma_correction(img);
 
